@@ -1,0 +1,102 @@
+/* Mengatur gaya dasar body */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #e0f7fa; /* Warna latar belakang biru muda */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Gaya untuk kontainer utama */
+.container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 350px;
+    transition: transform 0.3s ease;
+}
+
+/* Efek hover untuk memperbesar kontainer sedikit */
+.container:hover {
+    transform: translateY(-10px);
+}
+
+/* Gaya untuk heading */
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+/* Gaya label */
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 16px;
+    color: #555;
+}
+
+/* Gaya untuk input angka */
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    box-sizing: border-box;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+/* Gaya ketika input aktif */
+input[type="number"]:focus {
+    border-color: #007bff;
+}
+
+/* Gaya untuk tombol */
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 10px;
+    width: 45%;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Gaya untuk tombol reset */
+button:nth-child(2) {
+    background-color: #ff4d4d;
+}
+
+/* Efek hover pada tombol */
+button:hover {
+    background-color: #0056b3;
+    transform: translateY(-3px);
+}
+
+/* Efek hover pada tombol reset */
+button:nth-child(2):hover {
+    background-color: #e60000;
+}
+
+/* Gaya untuk heading hasil */
+h3 {
+    color: #333;
+    margin-top: 20px;
+}
+
+/* Gaya untuk elemen hasil */
+#hasil {
+    color: #007bff;
+    font-weight: bold;
+    font-size: 20px;
+}
